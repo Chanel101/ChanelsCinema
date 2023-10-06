@@ -1,0 +1,263 @@
+/* CSS Reset*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    width: 100%;
+    overflow: hidden;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+body {
+    background-color: #ebe0bc;
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    line-height: 1.5;
+}
+
+h1, h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2rem;
+}
+
+p, a {
+    margin: 2.2rem;
+}
+
+/*navigator bar*/
+nav {
+    position: fixed;
+    align-items: center;
+    justify-content: space-evenly;
+    left: 0;
+    background: #bdebbc;
+    height: 6.25rem;
+    width: 100%;
+    display: flex;
+    z-index: 100;
+}
+
+nav img {
+    width: 9em;
+    height: 5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    line-height: 6.25rem;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 17px;
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.2rem;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    background: #8eb08d;
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+
+/*quote*/
+blockquote {
+    font-size: 1.8em;
+    width: 50%;
+    margin: 3rem auto;
+    font-family: Open Sans;
+    font-style: italic;
+    padding: 2rem;
+    border-left: 1em solid #bdebbc;
+    line-height: 1.6;
+    background:#EDEDED;
+}
+  
+blockquote::before {
+    font-family: Arial, Helvetica, sans-serif;
+    content: "\201C";
+    color: #bdebbc;
+    margin-right: 0.1em;
+    font-size: 2em;
+}
+  
+blockquote cite {
+    display: block;
+    color:#000000;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+/*films + uitleg*/
+figure {
+    background-color: #b08dad;
+    display: flex;
+    padding: 0.6rem;
+    border: 1rem solid #e8b0e3;
+    margin: 1.25rem;
+}
+
+figure img {
+    max-width: 32em;
+    max-height: 40em;
+    height: auto;
+}
+
+figcaption {
+    flex: 1;
+    padding-top: 1.25rem;
+    padding-right: 2rem;
+    padding-left: 2.5rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 0.2em;
+    margin-bottom: 0.4rem;
+    font-size: 20px;
+}
+
+li a {
+    margin: 0rem;
+}
+
+figcaption a.button {
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem;
+    margin: 0.2em;
+    margin-top: 2rem;
+    max-width: fit-content;
+    background-color: #bdebbc;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 1em;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*trailers*/
+iframe {
+    max-width: 50rem;
+    max-height: 25rem;
+}
+
+figcaption p {
+    padding: 0.2em;
+    margin: auto;
+    font-size: 20px;
+}
+
+figcaption a {
+    margin: 0.2rem;
+}
+
+figcaption a:hover {
+    background-color: #8eb08d;
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+
+/*directors*/
+.director {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 1.25rem;
+}
+
+.director section {
+    text-align: center;
+    padding: 1.25rem;
+}
+
+.director section img {
+    max-width: 100%;
+    height: auto;
+    border: 0.3rem solid #b08dad;
+    border-radius: 0.3rem;
+}
+
+.director section img:hover {
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+
+section a:hover{
+    background-color: #8eb08d;
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+
+/*gallery*/
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+
+.gallery li {
+    margin: 1rem;
+    text-align: center;
+}
+
+.gallery img {
+    width: 29rem;
+    height: 20rem;
+    border: 0.4rem solid #b08dad;
+    border-radius: 0.4rem;
+    transition: transform 0.4s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.gallery a:hover {
+    background-color: #8eb08d;
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+
+/*footer*/
+footer {
+    background-color: #bdebbc;
+    color: #fff;
+    text-align: center;
+    padding: 1.25rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
