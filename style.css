@@ -24,8 +24,13 @@ body {
     line-height: 1.5;
 }
 
-h1, h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+h1 {
+    color: #b08dad;
+    margin: 2rem;
+}
+
+h2 {
+    color: #8eb08d;
     margin: 2rem;
 }
 
@@ -263,4 +268,4 @@ a {
            https://developer.mozilla.org/en-US/docs/Web/CSS/@media/hover
            https://www.google.com/search?q=color+picker&client=firefox-b-d&sca_esv=571701597&sxsrf=AM9HkKmfBUdx_g296RXwSRc5daMqZDqB9g%3A1696761985261&ei=gYgiZZPBD8ztsAfK7Y-IAw&ved=0ahUKEwjThZn7ouaBAxXMNuwKHcr2AzEQ4dUDCA8&uact=5&oq=color+picker&gs_lp=Egxnd3Mtd2l6LXNlcnAiDGNvbG9yIHBpY2tlcjIHEAAYigUYQzIKEAAYigUYsQMYQzIHEAAYigUYQzIFEAAYgAQyBxAAGIoFGEMyBRAAGIAEMgcQABiKBRhDMgUQABiABDIHEAAYigUYQzIHEAAYigUYQ0iZJ1D0GljJJXACeAGQAQCYAVugAdQGqgECMTK4AQPIAQD4AQHCAgoQABhHGNYEGLADwgIKEAAYigUYsAMYQ8ICBxAjGIoFGCfCAg0QABiKBRixAxiDARhDwgIEECMYJ8ICERAuGIAEGLEDGIMBGMcBGNEDwgIIEC4YgAQYsQPCAggQABiABBixA8ICCxAuGIAEGLEDGIMBwgIFEC4YgATCAggQLhjLARiABOIDBBgAIEGIBgGQBgo&sclient=gws-wiz-serp (colorpicker hex)
            ChatGPT (navbar,blockquote,hover)
-           
+           https://flexboxfroggy.com/#nl*/
