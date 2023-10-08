@@ -45,6 +45,7 @@ nav {
     background: #bdebbc;
     height: 6.25rem;
     width: 100%;
+    overflow: hidden;
     z-index: 100;
 }
 
