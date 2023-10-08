@@ -38,6 +38,11 @@ p, a {
     margin: 2.2rem;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
 /*navigator bar*/
 nav {
     position: fixed;
@@ -59,7 +64,6 @@ nav img {
 }
 
 nav ul {
-    list-style: none;
     display: flex;
 }
 
@@ -123,25 +127,24 @@ figure {
 figure img {
     max-width: 32rem;
     max-height: 40rem;
-    height: auto;
 }
 
 figcaption {
-    flex: 1;
     padding-top: 1.25rem;
     padding-right: 2rem;
     padding-left: 2.5rem;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
 }
 
 li {
     padding: 0.2rem;
     margin-bottom: 0.4rem;
     font-size: 20px;
+}
+
+li:first-child{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #0f61269b;
 }
 
 figcaption a.button {
