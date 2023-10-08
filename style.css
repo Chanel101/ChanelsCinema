@@ -219,13 +219,13 @@ section a:hover{
 }
 
 .gallery li {
-    padding: 1rem;
+    padding: 1.2rem;
     text-align: center;
 }
 
 .gallery img {
-    width: 29rem;
-    height: 20rem;
+    width: 35rem;
+    height: 23rem;
     border: 0.4rem solid #b08dad;
     border-radius: 0.4rem;
     transition: transform 0.4s;
