@@ -38,11 +38,6 @@ p, a {
     margin: 2.2rem;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
 /*navigator bar*/
 nav {
     position: fixed;
@@ -65,6 +60,7 @@ nav img {
 
 nav ul {
     display: flex;
+    justify-content: space-between;
 }
 
 nav ul li {
@@ -127,12 +123,18 @@ figure {
 figure img {
     max-width: 32rem;
     max-height: 40rem;
+    height: auto;
 }
 
 figcaption {
     padding-top: 1.25rem;
     padding-right: 2rem;
     padding-left: 2.5rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
 li {
@@ -144,7 +146,7 @@ li {
 li:first-child{
     text-transform: uppercase;
     font-size: 25px;
-    color: #0f61269b;
+    color: #1c511b;
 }
 
 figcaption a.button {
@@ -167,6 +169,10 @@ figcaption a.button {
 iframe {
     max-width: 50rem;
     max-height: 25rem;
+}
+
+figcaption{
+    flex: 1;
 }
 
 figcaption p {
