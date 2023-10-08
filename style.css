@@ -38,6 +38,13 @@ p, a {
     margin: 2.2rem;
 }
 
+/*media queries*/
+@media only screen and (max-width: 600px) {
+    figure {
+      flex-direction: column;
+    }
+  }
+
 /*navigator bar*/
 nav {
     position: fixed;
@@ -63,14 +70,9 @@ nav ul {
     justify-content: space-between;
 }
 
-nav ul li {
-    line-height: 6.25rem;
-    margin: 0 5px;
-}
-
 nav ul li a {
     color: #fff;
-    font-size: 17px;
+    font-size: 1.2rem;
     padding: 0.4rem 0.6rem;
     border-radius: 0.2rem;
     text-transform: uppercase;
@@ -224,11 +226,9 @@ section a:hover{
 
 /*gallery*/
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 1rem;
-    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 33.5%);
+    grid-template-rows: repeat(3, 30%);
     margin: 1rem;
 }
 
@@ -237,16 +237,11 @@ section a:hover{
 }
 
 .gallery img {
-    width: 30rem;
-    height: 22rem;
-    margin: auto;
+    max-width: 30rem;
+    min-height: 22rem;
     border: 0.4rem solid #b08dad;
     border-radius: 0.4rem;
     transition: transform 0.4s;
-}
-
-.gallery img:hover {
-    transform: scale(1.5);
 }
 
 .gallery a:hover {
@@ -260,6 +255,7 @@ footer {
     background-color: #bdebbc;
     color: #fff;
     text-align: center;
+    width: 100%;
     padding: 1.25rem;
 }
 
