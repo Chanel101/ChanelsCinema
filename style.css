@@ -49,10 +49,10 @@ nav {
 }
 
 nav img {
-    max-width: 9em;
-    max-height: 5em;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    max-width: 9rem;
+    max-height: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 nav ul {
@@ -81,13 +81,13 @@ nav ul li a:hover {
 
 /*quote*/
 blockquote {
-    font-size: 1.8em;
+    font-size: 1.8rem;
     width: 50%;
     margin: 3rem auto;
     font-family: Open Sans;
     font-style: italic;
     padding: 2rem;
-    border-left: 1em solid #bdebbc;
+    border-left: 1rem solid #bdebbc;
     line-height: 1.6;
     background:#EDEDED;
 }
@@ -96,8 +96,8 @@ blockquote::before {
     font-family: Arial, Helvetica, sans-serif;
     content: "\201C";
     color: #bdebbc;
-    margin-right: 0.1em;
-    font-size: 2em;
+    margin-right: 0.1rem;
+    font-size: 2rem;
 }
   
 blockquote cite {
@@ -105,7 +105,7 @@ blockquote cite {
     color:#000000;
     font-style: normal;
     font-weight: bold;
-    margin-top: 1em;
+    margin-top: 1rem;
 }
 
 /*films + uitleg*/
@@ -118,8 +118,8 @@ figure {
 }
 
 figure img {
-    max-width: 32em;
-    max-height: 40em;
+    max-width: 32rem;
+    max-height: 40rem;
     height: auto;
 }
 
@@ -136,27 +136,23 @@ ul {
 }
 
 li {
-    padding: 0.2em;
+    padding: 0.2rem;
     margin-bottom: 0.4rem;
     font-size: 20px;
-}
-
-li a {
-    margin: 0rem;
 }
 
 figcaption a.button {
     display: flex;
     justify-content: flex-start;
     padding: 1rem;
-    margin: 0.2em;
+    margin: 0.2rem;
     margin-top: 2rem;
     max-width: fit-content;
     background-color: #bdebbc;
     color: #fff;
     text-decoration: none;
     border: none;
-    border-radius: 1em;
+    border-radius: 1rem;
     font-size: 20px;
     font-weight: bold;
 }
@@ -168,7 +164,7 @@ iframe {
 }
 
 figcaption p {
-    padding: 0.2em;
+    padding: 0.2rem;
     margin: auto;
     font-size: 20px;
 }
