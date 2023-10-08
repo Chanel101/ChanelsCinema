@@ -246,7 +246,7 @@ section a:hover{
 }
 
 .gallery img:hover {
-    transform: scale(1.05);
+    transform: scale(1.5);
 }
 
 .gallery a:hover {
