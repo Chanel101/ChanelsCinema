@@ -143,7 +143,7 @@ li {
     font-size: 20px;
 }
 
-li:first-child{
+figcaption li:first-child{
     text-transform: uppercase;
     font-size: 25px;
     color: #1c511b;
@@ -163,6 +163,12 @@ figcaption a.button {
     border-radius: 1rem;
     font-size: 20px;
     font-weight: bold;
+}
+
+figcaption a:hover {
+    background-color: #8eb08d;
+    transition: 0.4s;
+    transform: scale(1.05);
 }
 
 /*trailers*/
@@ -185,12 +191,6 @@ figcaption a {
     margin: 0.2rem;
 }
 
-figcaption a:hover {
-    background-color: #8eb08d;
-    transition: 0.4s;
-    transform: scale(1.05);
-}
-
 /*directors*/
 .director {
     display: flex;
@@ -201,7 +201,7 @@ figcaption a:hover {
 
 .director section {
     text-align: center;
-    padding: 1.25rem;
+    padding: 1rem;
 }
 
 .director section img {
